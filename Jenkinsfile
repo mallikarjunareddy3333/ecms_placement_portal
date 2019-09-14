@@ -4,6 +4,6 @@ node{
 	}	
 	stage('Compile-Package'){
 		// maven home path
-		sh mvn package"
+		sh 'mvn package'
 	}
 }
