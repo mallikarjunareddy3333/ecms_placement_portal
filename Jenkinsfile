@@ -4,6 +4,6 @@ node {
 		}
 		stage ('Build') {
 			// maven home path
-			sh 'mvn package'
+			bat 'mvn package'
 		}
 }
