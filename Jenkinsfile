@@ -4,6 +4,6 @@ node {
 		}
 		stage ('Build') {
 			// maven home path
-			'mvn -Dmaven.test.failure.ignore=true install'
+			'mvn install'
 		}
 }
